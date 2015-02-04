@@ -20,7 +20,8 @@ public class SelectionSort {
 	{
 		for(int i=0; i< array.length; i++)
 		{
-			for(int j=0;j<array.length;j++)
+			/*This will swap each time instead swap smallest element at the end
+			 * for(int j=0;j<array.length;j++)
 			{
 				if(array[i] > array[j]) //Descending order .. reverse it for ascending order
 				{
@@ -29,6 +30,20 @@ public class SelectionSort {
 					array[i] = array[j];
 					array[j] = tmp;
 				}
+			}*/
+			
+			for(int j=i+1;j<array.length;j++)
+				{
+				   int minIndex = i;
+					if(array[minIndex] < array[j]) //Descending order .. reverse it for Ascending order
+					{
+						minIndex = j;
+					}
+				   
+				 //swap
+				int tmp = array[i];
+				array[i] = array[minIndex];
+				array[minIndex] = tmp;
 			}
 		}
 	}

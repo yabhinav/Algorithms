@@ -47,3 +47,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 /bin/
+
+*.prefs
+
+.project
+/target/
+.classpath
+.gitignore

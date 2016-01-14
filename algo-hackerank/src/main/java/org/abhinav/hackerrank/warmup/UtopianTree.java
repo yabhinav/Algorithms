@@ -37,6 +37,6 @@ public class UtopianTree {
 	            System.out.println(a[60]); //or preint error
 	           }
 	        }
-	        
+	        in.close();
 	    }
 }

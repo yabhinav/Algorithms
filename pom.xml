@@ -23,5 +23,6 @@
   	<module>algo-pie</module>
   	<module>algo-cci</module>
   	<module>algo-hackerank</module>
+  	<module>algo-others</module>
   </modules>
 </project>

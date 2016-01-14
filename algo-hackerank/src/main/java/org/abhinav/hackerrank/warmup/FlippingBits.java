@@ -20,6 +20,7 @@ public class FlippingBits {
 	        System.out.println(in.nextLong() ^ 4294967295L);
 	        
 	    }
+	    in.close();
 	}
     
 }

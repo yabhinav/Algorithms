@@ -1,4 +1,4 @@
-package org.abhinav.algorithms.bitoperations;
+package  org.abhinav.algorithms.searchnsort;
 
 import java.util.Scanner;
 
@@ -45,6 +45,8 @@ public class SwapBits {
 		 int j = in.nextInt();
 		 
 		 System.out.println(SwapBit(num, i, j));
+		 
+		 in.close();
 		
 	}
 

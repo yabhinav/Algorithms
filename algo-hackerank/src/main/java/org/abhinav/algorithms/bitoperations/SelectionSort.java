@@ -1,4 +1,4 @@
-package org.abhinav.algorithms.searchnsort;
+package org.abhinav.algorithms.bitoperations;
 
 import java.util.Arrays;
 

@@ -11,7 +11,7 @@ def mergeSort(alist):
 
         i=0
         j=0
-        k=0
+        k=0 # Add in increasing from beginning alist (in subtasks it will be lefthalf and righthalf)
         # Add smallest of both Until one of the list is empty
         while i < len(lefthalf) and j < len(righthalf):
             if lefthalf[i] < righthalf[j]:
